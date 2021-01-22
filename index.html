@@ -16,19 +16,22 @@
         <header>
           <figure>
             <img src="assets/1600188773715_546261798.jpg" alt="Bio">
+            <figcaption><b>PRAYOGO DEWANTORO</b></figcaption>
           
           </figure>
         </header>
+
+        <hr class="solid">
         
         <section id="menu">
           <nav>
             <ul>
               <li><a href="index.html" class="active">HOME</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
-              <li><a href="experience.html">WORK EXPERIENCE</a></li>
-              <li><a href="education.html">EDUCATION HISTORY</a></li>
-              <li><a href="organization.html">ORGANIZATION</a></li>
-              <li><a href="skills.html">SKILLS SUMMARY</a></li>
+              <li><a href=#contact >CONTACT</a></li>
+              <li><a href=#experiences>WORK EXPERIENCE</a></li>
+              <li><a href=#education>EDUCATION HISTORY</a></li>
+              <li><a href=#organization>ORGANIZATION</a></li>
+              <li><a href=#skills>SKILLS SUMMARY</a></li>
             </ul>
           </nav>
         </section>
@@ -37,28 +40,141 @@
 
           
       <div class="col-8">
-        <section id="name">
-          <h1>PRAYOGO DEWANTORO</h1>
-        </section>
-        
-        <hr class="solid">
-        
+        <h1><strong>Hello, World!</strong></h1>
         <blockquote><q><em>
 
           Hello my name is <strong>Prayogo Dewantoro</strong> , but you can call me <strong>Yogo</strong>. I'm a fresh graduate with strong willingness to learn. I have passion in <strong>Software Development</strong> especially in <strong>Quality Assurance</strong>. I am really passionate to work as QA tester. My goal is to be better as a person and as a professional everyday. </q></blockquote>
         </em> 
+
+        <hr class="solid">
         
-        <section id="socmed">
-          <h3>Let's connect!</h3>
+        
+
+      
+
+        <section id="contact">
+          <h3><strong>CONTACT & PERSONAL PROFILE</strong></h3>
+         <ul>
+           <li>Mobile: 085238886307</li>
+           <li>E-Mail: pygdwt@gmail.com</li>
+           <li>LinkedIn: www.linkedin.com/in/pygdwt</li>
+           <br>
+           <li>Address: Telong-Elong, Jerowaru, Lombok Timur, NTB</li>
+           <li>Date of Birth: 23 September 1995</li>
+         </ul>
+
+         <hr class="solid">
+
+         <section id="socmed">
+          <h3><strong>Let's connect!</strong> </h3>
           <a href="https://www.instagram.com/pygdwt_" class="fa fa-instagram" target="blank"></a>
           <a href="https://twitter.com/pygdwt" class="fa fa-twitter" target="blank"></a>
           <a href="https://github.com/pygdwt23" class="fa fa-github" target="blank"></a>
           <a href="https://www.linkedin.com/in/pygdwt" class="fa fa-linkedin" target="blank"></a>
         </section>
+
+        </section>
+
+        <hr class="solid">
+
+        <section id="experiences">
+          <h3><strong>WORK EXPERIENCE</strong></h3>
+          <P><strong>PT Skyreach</strong> | (On-Site Engineer Trainee) | Oct 2019 - Dec 2019</P>
+          <p><b>Responsibillities:</b></p>
+          <ul>
+            <li>VSAT Installation</li>
+            <li>Preventive Maintenance</li>
+          </ul>
+          <br>
+          <p><strong>BAWASLU NTB</strong> | (IT Support & Administration Intern) | Mar 2018 - Apr 208</p>
+          <p><b>Responsibillities:</b></p>
+          <ul>
+            <li>Network Troubleshooting</li>
+            <li>OS Installation</li>
+            <li>Hardware Upgrade</li>
+            <li>Software Installation</li>
+            <li>Documentation</li>
+            <li>Correspondence</li>
+          </ul>
+        </section>
+
+        <hr class="solid">
+
+       
+        <section id="education">
+          <h3><strong>EDUCATION HISTORY</strong></h3>
+          <ul>
+            <li><strong>UNIVERSITAS BUMIGORA</strong> | Bachelor of Computer Science in 2019</li>
+            <li><strong>SMAN 1 KERUAK</strong> | Graduated Class of 2013</li>
+          </ul>
+        </section>
+
+        <hr class="solid">
+
+        <section id="organization">
+          <h3><strong>ORGANIZATION</strong></h3>
+          <p><strong>ISQA (Indonesian Software Quality Assurance)</strong> | (Member) | 2020-NOW</p>
+        </section>
+
+        <hr class="solid">
+<section id="skills">
+
+  <h3><strong>SKILLS SUMMARY</strong></h3>
+  
+  <section id="technical">
+    <p><strong>TECHNICAL SKILLS</strong></p>
+    <ul>
+      <li>Manual Testing</li>
+      <li>Test Case & Bug Reporting</li>
+      <li>Abillity to understand Test Plan</li>
+      <li>Understanding of Agile methodology</li>
+      <li>TestRail</li>
+      <li>JIRA</li>
+      <li>Trello</li>
+      <li>HTML & CSS</li>
+    </ul>
+    
+  </section>
+  
+        <section id="intrapersonal">
+          <p><strong>SOFT SKILLS</strong></p>
+          <ul>
+            <li>Like to work with team cooperatively or individually</li>
+            <li>Have a strong willingness to learn and curiousity</li>
+            <li>Have passion in software quality assurance</li>
+            <li>Like to solve a problem</li>
+          </ul>
           
+        </section>
+      </section>
+        
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
         
       </div>  
-      </div>
     </div>
+  </div>
+<script>
+
+  //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 </body>
 </html>
