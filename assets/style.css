@@ -94,7 +94,7 @@ body {
 	background-color: #31343a;
 	border-right: 1px solid black;
 	padding-top: 30px;
-	position: fixed;
+	/* position: fixed; */
 }
 
 .col-4 header {
