@@ -48,21 +48,13 @@ body {
 	display: flex;
 }
 
-/* @media (min-width: 1200px) {
-	.container-fluid {
-		width: 750px;
-		font-size: 50%;
-	}
-}
-@media (min-width: 992px) {
-	.container-fluid {
-		width: 750px;
+/* @media (min-width: 992px) {
+	nav {
 		font-size: 50%;
 	}
 }
 @media (min-width: 768px) {
-	.container-fluid {
-		width: 750px;
+	nav {
 		font-size: 50%;
 	}
 } */
@@ -130,9 +122,6 @@ body {
 	padding: 0 15px;
 }
 
-nav {
-	position: sticky;
-}
 nav a {
 	font-size: 18px;
 	font-weight: 400;
