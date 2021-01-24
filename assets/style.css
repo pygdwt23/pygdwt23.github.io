@@ -194,19 +194,9 @@ nav li {
 	.col-4 nav li a {
 		font-size: 15px;
 	}
-	.col-4 header {
-		font-size: 70%;
-	}
 }
 
 @media screen and (max-width: 576px) {
-	/* .col-4 .nav a {
-		font-size: 12px;
-	} */
-	.col-4 header {
-		font-size: 12px;
-	}
-
 	.col-4 footer p {
 		font-size: 8px;
 	}
